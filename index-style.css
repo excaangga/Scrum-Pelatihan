@@ -1,0 +1,275 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  /* GLOBAL STYLES
+  --------------------------------------------- */
+  /* Padding below the footer and lighter body text */
+  
+  body {
+    padding-top: 3rem;
+    color: #464646;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  nav {
+    background-color: #7972AF;
+    padding:10px;
+  }
+
+  h2, h1 {
+    font-family: "Raleway";
+  }
+
+  .karpetlogo {
+    color:#29323c; 
+    background-color:#A199DF; 
+    border-radius: 7px; 
+    padding: 0% 3px;
+  }
+
+  .karpeth1 {
+    background-color: #A199DF; 
+    border-radius: 25px; 
+    color:#29323c; 
+    padding:0% 10px;
+  }
+
+  .headerImage {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-position:50% 70%;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("https://assets.pinterest.com/ext/embed.html?id=805159239625496310");
+  }
+
+  .headerImage h1 {
+    font-weight: bold;
+    font-family: "Raleway";
+    font-size: 72px;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+
+  .line-1 {
+    font-family: "Poppins";
+    top: 50%;  
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+  }
+
+  @media (min-width:720px) {
+
+    .line-1{
+      font-family: "Poppins";
+      top: 50%;  
+      width: 24em;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255,255,255,.75);
+      font-size: 180%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      transform: translateY(-50%);
+      color: white;
+  }
+  
+  /* Animation */
+  .anim-typewriter{
+    animation: typewriter 3s steps(44) 1s 1 normal both,
+               blinkTextCursor 700ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 25em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+  }
+
+
+  .langganan {
+    background-color: #D2CDF6;
+    margin-top:90px;
+    height: 16rem;
+    padding-top: 90px; 
+    padding-bottom: 20px;
+  }
+
+  .langganan h4 {
+    padding-bottom: 10px;
+  }
+
+  .langganan input {
+    border-radius: 7px;
+    padding: 8px;
+    border: none;
+  }
+
+  .langganan input[type=submit]:hover {
+    background-color: #9489e7;
+  }
+
+  .langganan input[type=submit] {
+    margin-left: 10px;
+    background-color: #A199DF;
+    color: white;
+  }
+
+  .nav-link:hover{
+    font-weight: bold;
+  }
+
+  .nav-link.active {
+    border-bottom: 2px solid white;
+  }
+
+  .star {
+    margin-left: 12px;
+    color: orange;
+    font-size: 13px;
+  }
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------- */
+
+  /* Carousel base class */
+  .col {
+    padding: 0%;
+  }
+  
+  .marketing h2 {
+    font-weight: 400;
+  }
+
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+  .card {
+    fill: white;
+    border-radius: 40px;
+    box-shadow: 20px 20px 50px 10px grey;
+    margin-bottom: 20px;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .card-body p {
+      font-family: 'Open Sans';
+      font-size: 14px;
+  }
+
+  .card-img-top {
+    border-radius: 20%; 
+    margin-top: 10px;
+  }
+
+  footer {
+    background-color: #7972AF;
+  }
+
+  footer p {
+    color: white;
+  }
+
+  .box-sosmed{
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 17);
+  }
+
+  .box-sosmed i {
+    vertical-align: bottom;
+    font-size: 18px;
+    color: #eee;
+  }
+  
+  .sosmed-wrapper {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    padding: 0px 10%;
+    -webkit-box-pack: justify;
+    justify-content: center;
+  }
+
+  .carousel-control-prev, .carousel-control-next, .carousel-indicators{
+    display: none;
+  }
+
+  @media (min-width: 40em) {
+
+    .featurette-heading {
+      font-size: 50px;
+    }
+    .featurette-divider {
+      margin: 5rem 0;
+    }
+    .carousel-control-prev, .carousel-control-next, .carousel-indicators{
+      display:flex;
+    }
+    
+  }
+
+/* Custom Button class */
+.btn-dewa {
+  background-color: #A199DF;
+  color: white;
+}
+
+.btn-dewa:hover {
+  background-color: #9489e7;
+}
+
+.btn-outline-dewa {
+  background-color: transparent;
+  border: #A199DF solid 1px;
+  color: #9489e7;;
+}
+
+.btn-outline-dewa:hover {
+  background-color: #9489e7;
+  color: #ffff;
+}
+
+/* Font */
+.fw-medium {
+  font-weight: 600;
+}
+
+/* Hoverable-div */
+.hover-shadow:hover {
+  background-color: #fff;
+  box-shadow: 10px 10px 32px 1px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 10px 10px 32px 1px rgba(0,0,0,0.35);
+  -moz-box-shadow: 10px 10px 32px 1px rgba(0,0,0,0.35);
+}
