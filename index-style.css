@@ -18,9 +18,8 @@
   /* Padding below the footer and lighter body text */
   
   body {
-    padding-top: 3rem;
     color: #464646;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',
   }
 
   nav {
@@ -29,7 +28,7 @@
   }
 
   h2, h1 {
-    font-family: "Raleway";
+    font-family: "Roboto";
   }
 
   .karpetlogo {
@@ -43,10 +42,10 @@
     background-color: #A199DF; 
     border-radius: 25px; 
     color:#29323c; 
-    padding:0% 10px;
   }
 
   .headerImage {
+
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -56,15 +55,26 @@
     overflow: hidden;
     background-repeat:no-repeat;
     background-attachment:fixed;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("https://assets.pinterest.com/ext/embed.html?id=805159239625496310");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.1)), url(banner.jpeg);
   }
 
   .headerImage h1 {
     font-weight: bold;
-    font-family: "Raleway";
+    background-color: #29323c;
+    color: white;
+    border-radius: 10px; 
+    padding: 10px 0 10px 10px;
+    font-family: "poppins";
+    width: auto;
+    margin: 5px auto;
     font-size: 72px;
-    color: #fff;
-    padding-bottom: 20px;
+  }
+
+  .viral {
+    background-color: white;
+    color: #29323c;
+    border-radius: 10px; 
+    padding: 0% 10px;
   }
 
   .line-1 {
@@ -142,10 +152,6 @@
     font-weight: bold;
   }
 
-  .nav-link.active {
-    border-bottom: 2px solid white;
-  }
-
   .star {
     margin-left: 12px;
     color: orange;
@@ -180,7 +186,7 @@
   }
 
   .card-body p {
-      font-family: 'Open Sans';
+      font-family: 'Roboto';
       font-size: 14px;
   }
 
